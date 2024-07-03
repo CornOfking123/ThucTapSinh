@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 10px;
+}
+.col-33 {
+  width: calc(100% / 3);
+}
+.col-02 {
+  width: calc(100% / 2);
+}
+.searching,
+.slogan,
+.logo {
+  padding: 0 10px;
+}
+
+.slogan h3 {
+  font-size: 15px;
+  padding-bottom: 16px;
+  text-align: center;
+  font-style: italic;
+  color: #ff07008f;
+}
+
+/*Content menu  */
+.navbar-nav {
+  float: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* new product */
+
+.title {
+  text-align: center;
+  color: rgb(14 192 195);
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  text-align: justify;
+}
+.product .vr-infor {
+  align-items: start;
+}
+.vr-product,
+.vr-infor {
+  width: 50%;
+  padding: 10px;
+  margin: 0;
+}
+
+.vr-product img {
+  width: 100%;
+  margin-top: 22px;
+  padding-bottom: 5px;
+}
+.vr-infor > h3 {
+  text-align: center;
+  color: orange;
+  font-size: 16px;
+}
+.vr-infor u {
+  color: rgb(0, 183, 255);
+  text-decoration: none;
+}
+.price {
+  display: flex;
+}
+.air-price {
+  flex: 1;
+}
+.air-price h3 {
+  padding-left: 5px;
+  color: red;
+  font-size: 16px;
+}
+.air-img {
+  flex: 1;
+}
+.air-img img {
+  width: 40%;
+  padding-top: 50px;
+}
+/* best seller */
+.new-product {
+  margin: 10px;
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+}
+.new-product h3 {
+  color: orange;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+.ip-15 {
+  flex: 1;
+}
+.ip-15 u {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  margin: 10px;
+}
+.ip-15 li {
+  padding: 0 10px;
+}
+.ip15-img,
+.apple-watch6 div {
+  text-align: center;
+}
+.ip-15 img,
+.apple-watch6 img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.apple-watch {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.apple-watch6 {
+  width: calc(50% - 5px);
+  padding-top: 50px;
+}
+.ip-15,
+.apple-watch6 {
+  border: 1px solid white;
+  box-shadow: 3px 4px 8px 0px;
+}
+.apple-watch6 h3 {
+  margin-top: 16px;
+}
+/* footer */
+.footer {
+  background-color: rgb(14 192 195);
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin-top: 30px;
+}
